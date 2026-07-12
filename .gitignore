@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+
+# Environment Variables & Secrets (CRITICAL for security)
+.env
+github token
+
+# Databases
+db.sqlite3
+
+# Python Caches & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django Migrations
+**/migrations/[0-9]*.py
+
+# Documentation & Media Uploads
+DATABASE_OVERVIEW.md
+media/
