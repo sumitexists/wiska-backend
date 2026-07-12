@@ -14,8 +14,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Django Migrations
-**/migrations/[0-9]*.py
 
 # Documentation & Media Uploads
 DATABASE_OVERVIEW.md
