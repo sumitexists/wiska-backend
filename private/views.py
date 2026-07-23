@@ -33,7 +33,7 @@ class UserMessagesViewset(viewsets.ModelViewSet):
         return super().get_queryset().filter(
             Q(sender=self.request.user, receiver_id=contact_id) | 
             Q(sender_id=contact_id, receiver=self.request.user)
-            ).order_by('-created_at')
+            ).order_by('created_at')
 
     def perform_update(self, serializer):
         if serializer.instance.sender != self.request.user:
