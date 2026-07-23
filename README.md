@@ -21,7 +21,7 @@ For the React client, see the **[Wiska Frontend](https://github.com/sumitexists/
 | Layer | Choice |
 |---|---|
 | Web framework | Django 6.0 + Django REST Framework 3.17 |
-| Auth | `djangorestframework-simplejwt` (JWT) + Djoser (auth endpoints) + Python Social Auth (`social-auth-app-django`) for OAuth login |
+| Auth | `djangorestframework-simplejwt` (JWT) + Djoser (auth endpoints) |
 | ASGI server | Daphne |
 | Real-time layer | Django Channels + `channels-redis` (Redis Pub/Sub as the channel layer) |
 | Database | PostgreSQL, via `psycopg2-binary` + `dj-database-url` (Neon-compatible) |
